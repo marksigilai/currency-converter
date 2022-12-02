@@ -6,7 +6,7 @@ You'll need to obtain an API key from https://www.exchangerate-api.com/ and plac
 
 ## Available Scripts
 
-In the project directory, you can run:
+After cloning, in the project directory, you can run:
 
 ### `npm start`
 
