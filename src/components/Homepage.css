@@ -1,0 +1,51 @@
+.Homepage {
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../public/background-home.jpeg");
+
+	background-position: center;
+	background-size: cover;
+}
+
+.Homepage-container {
+	background-color: #14161a;
+	font-size: larger;
+	padding: 2vh 5vw;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Homepage input {
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+}
+.Homepage select {
+}
+
+.Homepage button {
+	background-color: #275a27;
+	color: white;
+	margin-top: 2vh;
+}
+
+.Homepage button:hover {
+	background-color: #2d4a1f;
+}
+
+.alert-enter {
+	opacity: 0;
+	transform: scale(0.9);
+}
+.alert-enter-active {
+	opacity: 1;
+	transform: translateX(0);
+	transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+	opacity: 1;
+}
+.alert-exit-active {
+	opacity: 0;
+	transform: scale(0.9);
+	transition: opacity 300ms, transform 300ms;
+}

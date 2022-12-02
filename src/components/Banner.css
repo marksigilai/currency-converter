@@ -1,0 +1,8 @@
+.Banner {
+	display: inline;
+	position: absolute;
+	top: 0;
+	font-size: 1.3rem;
+	background-color: rgb(250, 79, 79);
+	z-index: 10;
+}

@@ -1,0 +1,33 @@
+.Logo {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin: 1vw 0;
+}
+.Logo .title {
+	text-align: center;
+	display: inline;
+	margin: 0 0.05rem;
+	text-align: left;
+	font-size: min(3.9rem, 10vw);
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.Logo .line {
+	position: absolute;
+	top: 40%;
+	left: 0.1rem;
+	height: 10%;
+	width: 15%;
+	border-top: 15px solid white;
+	border-bottom: 15px solid white;
+}
+
+.Logo .t1 {
+	background-color: #355f35;
+	font-size: 10rem;
+	font-size: min(10rem, 30vw);
+	box-shadow: -5px 5px #254325, -10px 10px #192d19, -15px 15px rgb(14, 25, 14);
+	padding: 0px 0.3rem;
+}

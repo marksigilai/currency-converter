@@ -1,0 +1,56 @@
+.App {
+	background-color: #000000;
+	min-height: 100vh;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+/* || GENERAL STYLES */
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	flex-direction: column;
+}
+
+.flex-left {
+	align-items: stretch;
+}
+.space {
+	padding: 1vw;
+	margin: 0.1vw;
+}
+
+.rounded {
+	border-radius: 6px;
+	border: none;
+}
+
+label {
+	display: block;
+	text-align: left;
+	color: rgb(190, 190, 190);
+	font-weight: 600;
+	font-size: 1rem;
+	margin-bottom: 0.3rem;
+}
+
+/* all input boxes and submit button */
+.inp {
+	padding: 1rem;
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 1rem;
+	outline: none;
+	width: 100%;
+	border: none;
+	-webkit-appearance: initial;
+}
+.inp:focus {
+	border: none;
+	outline: none;
+}
