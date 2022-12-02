@@ -22,7 +22,7 @@ export default function getAllCurrencies() {
 								name: currency.name,
 								currency: currency.code,
 							};
-							//removes duplicates
+							//removing duplicates
 							if (!uniqueCodes.includes(item.currency)) {
 								currenciesArr.push(item);
 								uniqueCodes.push(item.currency);

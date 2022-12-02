@@ -31,7 +31,7 @@ function Homepage() {
 						setErr(null);
 					})
 					.catch((error) => {
-						setErr("Error: could not calculate conversion");
+						setErr(error);
 					});
 			})
 			.catch((errMsg) => {
@@ -39,12 +39,13 @@ function Homepage() {
 			});
 	};
 
+	//obtains all currencies before render
 	useEffect(() => {
 		getAllCurrencies()
 			.then((res) => {
 				var allCurrencies = [];
 				allCurrencies = [...res];
-				//load for 0.5 seconds not necessary but looks good
+				//to view loading screen for 1 second, change 0 to 1000ms
 				setTimeout(() => setCurrencies(allCurrencies), 0);
 			})
 			.catch((error) => {
@@ -52,6 +53,7 @@ function Homepage() {
 			});
 	}, []);
 
+	//shows loading screen until currencies are obtained
 	if (currencies.length === 0) {
 		return (
 			<div className="flex-container">
