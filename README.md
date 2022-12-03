@@ -2,7 +2,7 @@
 
 This app uses the APIs https://restcountries.com/ and https://www.exchangerate-api.com/.
 
-You'll need to obtain an API key from https://www.exchangerate-api.com/ and place it in the **src/api/exchangerates.js apiKey** variable before proceeding.
+You'll need to obtain your own API key from https://www.exchangerate-api.com/ and place it in the **src/api/exchangerates.js apiKey** variable before proceeding.
 
 ## Available Scripts
 
